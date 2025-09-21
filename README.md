@@ -72,7 +72,13 @@ To create a standalone executable:
    pip install pyinstaller
    ```
 
-3. Build the executable:
+3. Run the following:
+
+   ```bash
+   pyi-makespec app.py
+   ```
+
+4. Build the executable:
 
    ```bash
    pyinstaller app.spec
