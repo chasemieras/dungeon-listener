@@ -60,27 +60,9 @@ Written in Python with:
 
 To create a standalone executable:
 
-1. Ensure you are in the venv for fowi:
-
    ```bash
    source DL/bin/activate 
-   ```
-
-2. Install pyinstaller in the venv:
-
-   ```bash
    pip install pyinstaller
-   ```
-
-3. Run the following:
-
-   ```bash
-   pyi-makespec app.py
-   ```
-
-4. Build the executable:
-
-   ```bash
    pyinstaller app.spec
    ```
 
